@@ -139,6 +139,11 @@ border-bottom: 1px solid #ECECEC
     display: flex;
     margin-left: auto;}
 
+.head-icons {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 /* Секція Герой */
 .section-hero {
     max-width: 1600px;
@@ -184,6 +189,7 @@ border-bottom: 1px solid #ECECEC
     border-radius: 4px;
     padding: 10px 32px;
     letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 
 
@@ -218,6 +224,22 @@ border-bottom: 1px solid #ECECEC
 
 .list-box {
     margin-right: 30px; 
+}
+
+.icon-feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--background-color-team);
+    border-radius: 4px;
+}
+
+.feature-icons {
+    fill: currentColor;
+    width: 70px;
+    height: 70px;
 }
 
 .feature-list {
@@ -267,6 +289,7 @@ border-bottom: 1px solid #ECECEC
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
 .name {
     color: var(--title-text-color);
     font-family: 'Roboto';
@@ -316,7 +339,9 @@ border-bottom: 1px solid #ECECEC
 .button-success:hover,
 .button-success:focus {   
     color: var(--additional-color);
-    background-color: var(--accent-color); }
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+ }
 
 .button-success.all {
     color: var(--additional-color);
@@ -335,6 +360,13 @@ border-bottom: 1px solid #ECECEC
     padding: 0;
     margin-bottom: 30px;
 }
+
+.card:hover,
+.card:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .card-skills {
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
