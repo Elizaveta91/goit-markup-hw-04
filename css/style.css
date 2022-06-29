@@ -341,11 +341,11 @@ border-bottom: 1px solid #ECECEC
     color: var(--additional-color);
 }
 
-.client-icons {
+.social-icons {
     fill: currentColor;}
 
-.client-icons:hover,
-.client-icons:focus {
+.social-icons:hover,
+.social-icons:focus {
     fill: var(--additional-color);
 }
 
