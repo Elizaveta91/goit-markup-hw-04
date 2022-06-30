@@ -137,6 +137,7 @@ border-bottom: 1px solid #ECECEC
     letter-spacing: 0.02em;
     text-decoration: none;
     display: flex;
+    align-items: center;
     margin-left: auto;}
 
 .head-icons {
@@ -284,10 +285,15 @@ border-bottom: 1px solid #ECECEC
 
 /* Наша команда */
 .team-img {
+    background-color: var(--additional-color);
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+}
+
+.img {
+    margin-bottom: 30px;
 }
 
 .name {
@@ -299,9 +305,7 @@ border-bottom: 1px solid #ECECEC
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-decoration: none;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    margin: 0;
+    margin-bottom: 10px;
     background-color: var(--additional-color);
 }
 .job {
@@ -310,8 +314,7 @@ border-bottom: 1px solid #ECECEC
     font-weight: normal;
     line-height: 1.18;
     text-decoration: none;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    margin-bottom: 16px;
     background-color: var(--additional-color);
 }
 .team-icons {
@@ -320,6 +323,7 @@ border-bottom: 1px solid #ECECEC
     list-style: none;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
     background-color: var(--additional-color);
 }
 
@@ -332,7 +336,6 @@ border-bottom: 1px solid #ECECEC
     border-radius: 50%;
     background-color: var(--additional-color);
     color: #AFB1B8;
-    margin-bottom: 30px;
 }
 
 .team-link:hover,
@@ -356,7 +359,7 @@ border-bottom: 1px solid #ECECEC
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .client-list {
@@ -378,7 +381,6 @@ border-bottom: 1px solid #ECECEC
     justify-content: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    margin-bottom: 94px;
 }
 
 .client-link:hover,
@@ -443,8 +445,13 @@ border-bottom: 1px solid #ECECEC
     margin-bottom: 30px;
 }
 
-.card:hover,
-.card:focus {
+.card-box {
+    display: block;
+    text-decoration: none;
+}
+
+.card-box:hover,
+.card-box:focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
