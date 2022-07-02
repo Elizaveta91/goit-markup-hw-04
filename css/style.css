@@ -327,6 +327,9 @@ border-bottom: 1px solid #ECECEC
     background-color: var(--additional-color);
 }
 
+.icon-list:not(:last-child) {
+    margin-right: 10px;}
+
 .team-link {
     display: flex;
     align-items: center;
@@ -436,6 +439,7 @@ border-bottom: 1px solid #ECECEC
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px;
+    margin-bottom: -30px;
 }
    
 .card {
